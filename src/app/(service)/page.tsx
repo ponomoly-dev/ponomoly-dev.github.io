@@ -1,5 +1,4 @@
 import TestStyledComponent from "@/components/TestStyledComponent";
-import Image from "next/image";
 
 export default function Home() {
   return (
