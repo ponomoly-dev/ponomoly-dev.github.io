@@ -3,7 +3,6 @@ import TestDummyUserCard from "@/components/TestDummyUserCard";
 import { dummyApiIoApi } from "@/networks";
 import React, { useCallback, useEffect, useState } from "react";
 import ReactPagination from "react-paginate";
-import "./pagination.css";
 
 const DummyListPaginationClient = () => {
   const [page, setPage] = useState(0);
@@ -53,16 +52,16 @@ const DummyListPaginationClient = () => {
         onPageChange={({ selected }) => {
           setPage(selected);
         }}
-        activeClassName="acitve"
-        pageClassName="page-item"
-        pageLinkClassName="page-link"
-        previousClassName="page-item"
-        previousLinkClassName="page-link"
-        nextClassName="page-item"
-        nextLinkClassName="page-link"
-        containerClassName="pagination"
-        breakClassName="page-item"
-        breakLinkClassName="page-link"
+        containerClassName="isolate inline-flex -space-x-px rounded-md shadow-sm"
+        previousClassName="relative inline-flex items-center rounded-l-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
+        previousLinkClassName="previousLinkClassName"
+        pageClassName="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
+        pageLinkClassName="pageLinkClassName"
+        breakClassName="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-700 ring-1 ring-inset ring-gray-300 focus:outline-offset-0"
+        breakLinkClassName="breakLinkClassName"
+        nextClassName="relative inline-flex items-center rounded-r-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
+        nextLinkClassName="nextLinkClassName"
+        activeClassName="z-10 bg-indigo-600 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
       />
       {data
         ? data.map((item: any) => {
