@@ -1,3 +1,9 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  description: 'Developer in South Korea',
+};
+
 export default function Home() {
-  return <>In Constrution</>;
+  return <>This website is currently under construction.</>;
 }
