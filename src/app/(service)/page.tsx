@@ -1,3 +1,4 @@
+import Container from '@/components/core/Container';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -5,5 +6,5 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return <>This website is currently under construction.</>;
+  return <Container>This website is currently under construction.</Container>;
 }

@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
-import RootLayout from "@/layouts/RootLayout";
-import "../styles/tailwind.css";
+import type { Metadata } from 'next';
+import RootLayout from '@/components/layout/RootLayout';
+import '../styles/tailwind.css';
 
 export const metadata: Metadata = {
   title: {
-    template: "%s - PONOMOLY",
-    default: "PONOMOLY",
+    template: '%s - PONOMOLY',
+    default: 'PONOMOLY',
   },
 };
 
