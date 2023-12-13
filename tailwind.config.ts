@@ -26,7 +26,7 @@ const config: Config = {
         '4xl': '2.5rem',
       },
       fontFamily: {
-        sans: ['Nanum Square Neo', ...defaultTheme.fontFamily.sans],
+        sans: ['NanumSquareNeoVariable', ...defaultTheme.fontFamily.sans],
       },
     },
   },
