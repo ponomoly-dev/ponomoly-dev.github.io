@@ -115,8 +115,12 @@ function Navigation() {
   return (
     <nav className="mt-px text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        {/* <NavigationItem href="/work">Work</NavigationItem> */}
-        <NavigationItem href="/about">About</NavigationItem>
+        <NavigationItem href="#about-me">About Me</NavigationItem>
+        <NavigationItem href="#works">Works</NavigationItem>
+      </NavigationRow>
+      <NavigationRow>
+        {/* <NavigationItem href="/about">Projects</NavigationItem> */}
+        <NavigationItem href="#contact">Contact</NavigationItem>
       </NavigationRow>
     </nav>
   );
