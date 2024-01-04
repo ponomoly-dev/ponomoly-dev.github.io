@@ -1,5 +1,6 @@
 import { ContactSection } from '@/components/ContactSection';
 import Container from '@/components/core/Container';
+import { Works } from '@/components/main/Works';
 import { FadeIn } from '@/components/motion/FadeIn';
 import { Metadata } from 'next';
 
@@ -84,10 +85,6 @@ const AboutMe = () => {
   return <>About Me 자기 소개서 + 내가 가진 기술 스택 이력서 다운로드 +</>;
 };
 
-const Works = () => {
-  return <>Works 고위드</>;
-};
-
 const Contact = () => {
   return <>Contact</>;
 };
@@ -95,12 +92,15 @@ const Contact = () => {
 export default function Home() {
   return (
     <>
+      <div id="top" />
       <Main />
       {/* About Me */}
       {/* <AboutMe /> */}
       {/* Works */}
-      {/* <Works /> */}
+      <div id="works" />
+      <Works />
       {/* Projects 추후 몇개 만들고 추가 */}
+      <div id="contact" />
       <ContactSection />
     </>
   );
