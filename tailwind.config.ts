@@ -22,6 +22,11 @@ const config: Config = {
       '7xl': ['4rem', { lineHeight: '4.5rem' }],
     },
     extend: {
+      spacing: {
+        60: '60rem',
+        116: '116rem',
+        142: '142rem',
+      },
       borderRadius: {
         '4xl': '2.5rem',
       },
