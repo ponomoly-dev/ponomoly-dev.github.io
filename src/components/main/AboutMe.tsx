@@ -2,37 +2,61 @@ import React from 'react';
 import Container from '../core/Container';
 import { FadeIn, FadeInStagger } from '../motion/FadeIn';
 import { Border } from '../core/Border';
-import { ReactLogo } from '../svgLogo';
+import {
+  AWSLogoGrayScale,
+  BitbucketLogo,
+  CSSLogo,
+  CloudFlareLogo,
+  DockerLogo,
+  FigmaLogo,
+  FirebaseLogo,
+  GitLogo,
+  GithubLogo,
+  HTMLLogo,
+  JavascriptLogo,
+  JiraLogo,
+  MUILogo,
+  NextJSLogo,
+  ReactLogo,
+  ReactQueryLogo,
+  ReduxToolkitLogo,
+  StyledComponentsLogo,
+  TailwindCSSLogo,
+  TrelloLogo,
+  TypescriptLogo,
+  VercelLogo,
+  ZeplinLogoGrayScale,
+} from '../svgLogo';
 
 const TOOL_CATEGORY_DATA = {
   Frontend: [
     {
-      title: 'HTML',
-      icon: ReactLogo,
+      title: 'HTML5',
+      icon: HTMLLogo,
     },
     {
-      title: 'CSS',
-      icon: ReactLogo,
+      title: 'CSS3',
+      icon: CSSLogo,
     },
     {
       title: 'Javascript',
-      icon: ReactLogo,
-    },
-    {
-      title: 'TailwindCSS',
-      icon: ReactLogo,
-    },
-    {
-      title: 'Styled Components',
-      icon: ReactLogo,
-    },
-    {
-      title: 'MUI',
-      icon: ReactLogo,
+      icon: JavascriptLogo,
     },
     {
       title: 'Typescript',
-      icon: ReactLogo,
+      icon: TypescriptLogo,
+    },
+    {
+      title: 'TailwindCSS',
+      icon: TailwindCSSLogo,
+    },
+    {
+      title: 'Styled Components',
+      icon: StyledComponentsLogo,
+    },
+    {
+      title: 'MUI',
+      icon: MUILogo,
     },
     {
       title: 'React',
@@ -40,73 +64,73 @@ const TOOL_CATEGORY_DATA = {
     },
     {
       title: 'NextJS',
-      icon: ReactLogo,
-    },
-    {
-      title: 'react-query',
-      icon: ReactLogo,
+      icon: NextJSLogo,
     },
     {
       title: 'redux-toolkit',
-      icon: ReactLogo,
+      icon: ReduxToolkitLogo,
     },
     {
-      title: 'zustard',
+      title: 'react-query',
+      icon: ReactQueryLogo,
+    },
+    {
+      title: 'zustand',
       icon: ReactLogo,
     },
   ],
   Deployment: [
     {
       title: 'AWS',
-      icon: ReactLogo,
+      icon: AWSLogoGrayScale,
     },
     {
       title: 'CloudFlare',
-      icon: ReactLogo,
+      icon: CloudFlareLogo,
     },
     {
       title: 'Vercel',
-      icon: ReactLogo,
+      icon: VercelLogo,
     },
     {
       title: 'Firebase',
-      icon: ReactLogo,
+      icon: FirebaseLogo,
     },
     {
       title: 'Docker',
-      icon: ReactLogo,
+      icon: DockerLogo,
     },
   ],
   'Version Control': [
     {
       title: 'Git',
-      icon: ReactLogo,
+      icon: GitLogo,
     },
     {
       title: 'Github',
-      icon: ReactLogo,
+      icon: GithubLogo,
     },
     {
       title: 'Bitbucket',
-      icon: ReactLogo,
+      icon: BitbucketLogo,
     },
   ],
   Communication: [
     {
       title: 'Jira',
-      icon: ReactLogo,
+      icon: JiraLogo,
     },
     {
       title: 'Trello',
-      icon: ReactLogo,
+      icon: TrelloLogo,
     },
     {
       title: 'Figma',
-      icon: ReactLogo,
+      icon: FigmaLogo,
     },
     {
-      title: 'zeplin',
-      icon: ReactLogo,
+      title: 'Zeplin',
+      icon: ZeplinLogoGrayScale,
     },
   ],
 };
